@@ -1,0 +1,16 @@
+div .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+/* by putting div before the .text we're indicating that it's the 
+parent/ancestor more technically we're saying the .text class has to be
+nested inside a div type*/
+/* p .text {
+    declarations
+    } 
+    wouldn't work because the css is expecting a .text class nested
+    inside a p, which we don't have here*/
+/* ".container .text" or "div p" both work perfectly as indicated in the
+README file, but i'm just feeling adventurous, ".container p" would work too
