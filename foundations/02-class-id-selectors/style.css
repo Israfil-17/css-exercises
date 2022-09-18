@@ -1,0 +1,16 @@
+.something {
+    background-color: #cf6e6e90;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+.something.bigger {
+    font-size: 24px;
+}
+#idk {
+    color: #00f;
+    font-size: 36px;
+}
+#idk2 {
+    background-color: #15901580;
+    font-size: 24px;
+    font-weight: bold;
+}
