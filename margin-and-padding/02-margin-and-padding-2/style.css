@@ -7,21 +7,34 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 16px;
+  padding: 8px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+/*mistake one was putting a shorthand margin, this created a margin of 8px on all sides, we already applied 8px of padding for the card so the shorthand version applied to the other elements made the total space 16px on the sides and 8 between them*/
 }
-
 .content {
   background: #e3f4ff;
+  padding: 16px 8px;
+  margin-bottom: 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
 }
+/*not a serious mistake but might cause issues in the future, when trying to center the button, instead of doing it like this, i just left it at auto which might have caused some centering issues down the line as with this method it only centers it horizontally while and leaves top and bottom at zero, while with mine it would've auto set all the values*/
